@@ -1,0 +1,628 @@
+[
+    {
+        "tag": "greeting",
+        "patterns": [
+            "Hi",
+            "Hello",
+            "Hey",
+            "How are you",
+            "What's up"
+        ],
+        "responses": [
+            "Hi there",
+            "Hello",
+            "Hey",
+            "I'm fine, thank you",
+            "Nothing much"
+        ]
+    },
+    {
+        "tag": "goodbye",
+        "patterns": [
+            "Bye",
+            "See you later",
+            "Goodbye",
+            "Take care"
+        ],
+        "responses": [
+            "Goodbye",
+            "See you later",
+            "Take care"
+        ]
+    },
+    {
+        "tag": "thanks",
+        "patterns": [
+            "Thank you",
+            "Thanks",
+            "Thanks a lot",
+            "I appreciate it"
+        ],
+        "responses": [
+            "You're welcome",
+            "No problem",
+            "Glad I could help"
+        ]
+    },
+    {
+        "tag": "about",
+        "patterns": [
+            "What can you do",
+            "Who are you",
+            "What are you",
+            "What is your purpose"
+        ],
+        "responses": [
+            "I am a chatbot",
+            "My purpose is to assist you",
+            "I can answer questions and provide assistance"
+        ]
+    },
+    {
+        "tag": "help",
+        "patterns": [
+            "Help",
+            "I need help",
+            "Can you help me",
+            "What should I do"
+        ],
+        "responses": [
+            "Sure, what do you need help with?",
+            "I'm here to help. What's the problem?",
+            "How can I assist you?"
+        ]
+    },
+  
+    {
+        "tag": "weather",
+        "patterns": [
+            "What's the weather like",
+            "How's the weather today"
+        ],
+        "responses": [
+            "I'm sorry, I cannot provide real-time weather information.",
+            "You can check the weather on a weather app or website."
+        ]
+    },
+   
+   
+    {
+        "tag": "name",
+        "patterns": [
+            "What's your name",
+            "Do you have a name",
+            "What should I call you"
+        ],
+        "responses": [
+            "You can call me Chatbot.",
+            "My name is Chatbot."
+        ]
+    },
+   
+   
+    {
+        "tag": "time",
+        "patterns": [
+            "What's the time",
+            "Can you tell me the time"
+        ],
+        "responses": [
+            "I'm sorry, but I don't have access to real-time information like the current time.",
+            "You can check the time on your device or use a clock."
+        ]
+    },
+    
+        {
+            "tag": "capital",
+            "patterns": [
+                "What is the capital of Maharashtra?",
+                "Tell me the capital of Maharashtra",
+                "Where is the capital of Maharashtra?"
+            ],
+            "responses": [
+                "The capital of Maharashtra is Mumbai."
+            ]
+        },
+        {
+            "tag": "highest_peak",
+            "patterns": [
+                "What is the highest peak in Maharashtra?",
+                "Which mountain is the highest in Maharashtra?",
+                "Tell me about the highest peak in Maharashtra"
+            ],
+            "responses": [
+                "The highest peak in Maharashtra is Kalsubai."
+            ]
+        },
+        {
+            "tag": "extraordinary_people",
+            "patterns": [
+                "Who are some extraordinary people from Maharashtra?",
+                "Tell me about extraordinary people from Maharashtra",
+                "Which famous people changed Maharashtra?"
+            ],
+            "responses": [
+                "Extraordinary people from Maharashtra include Dr. B.R. Ambedkar, Balasaheb Thackeray, Lata Mangeshkar, and D.Y. Patil,Chhtrapati Shivaji Maharaj "
+            ]
+        },
+        {
+            "tag": "tourism",
+            "patterns": [
+                "What are the famous tourist places in Maharashtra?",
+                "Tell me about tourist spots in Maharashtra",
+                "What places should I visit in Maharashtra?"
+            ],
+            "responses": [
+                "Famous tourist places in Maharashtra include Ajanta and Ellora Caves, Gateway of India, Mahabaleshwar, Lonavala, and more."
+            ]
+        },
+        {
+            "tag": "transportation",
+            "patterns": [
+                "What are the transport options in Maharashtra?",
+                "Tell me about railways, roadways, airways, and waterways in Maharashtra",
+                "How do people travel in Maharashtra?"
+            ],
+            "responses": [
+                "Maharashtra has a well-developed transport system, including railways, roadways, airways, and waterways. Mumbai is a major hub for local and international flights, and the state has extensive train and bus networks."
+            ]
+        },
+        {
+            "tag": "railways",
+            "patterns": [
+                "Tell me about railways in Maharashtra",
+                "What are the major railway stations in Maharashtra?",
+                "How many trains run in Maharashtra?"
+            ],
+            "responses": [
+                "Maharashtra has an extensive railway network. Major stations include Chhatrapati Shivaji Maharaj Terminus in Mumbai, Pune Junction, and Nagpur Junction."
+            ]
+        },
+        {
+            "tag": "roadways",
+            "patterns": [
+                "What are the main roads in Maharashtra?",
+                "Tell me about highways and roads in Maharashtra",
+                "What is the road network in Maharashtra like?"
+            ],
+            "responses": [
+                "Maharashtra has a vast road network, including national highways like NH 48 (Mumbai-Pune Expressway) and NH 66 (Goa-Mumbai Road)."
+            ]
+        },
+        {
+            "tag": "airways",
+            "patterns": [
+                "What are the major airports in Maharashtra?",
+                "Tell me about airports in Maharashtra",
+                "Which international airports are in Maharashtra?"
+            ],
+            "responses": [
+                "Maharashtra has several major airports, including Chhatrapati Shivaji Maharaj International Airport in Mumbai and Pune International Airport."
+            ]
+        },
+        {
+            "tag": "waterways",
+            "patterns": [
+                "What are the waterways in Maharashtra?",
+                "Tell me about the waterways in Maharashtra",
+                "Are there any important rivers or ports in Maharashtra?"
+            ],
+            "responses": [
+                "Maharashtra has several ports, including Jawaharlal Nehru Port Trust (JNPT) in Navi Mumbai and Mumbai Port. Major rivers include the Godavari, Krishna, and Tapi."
+            ]
+        },
+        {
+            "tag": "colleges",
+            "patterns": [
+                "What are the top colleges in Maharashtra?",
+                "Tell me about famous colleges in Maharashtra",
+                "Which colleges are known in Maharashtra?"
+            ],
+            "responses": [
+                "Top colleges in Maharashtra include St. Xavier's College (Mumbai), Fergusson College (Pune), and IIT Bombay."
+            ]
+        },
+        {
+            "tag": "schools",
+            "patterns": [
+                "What are the best schools in Maharashtra?",
+                "Tell me about schools in Maharashtra",
+                "Which schools are popular in Maharashtra?"
+            ],
+            "responses": [
+                "Some of the best schools in Maharashtra include The Cathedral and John Connon School (Mumbai), Delhi Public School (Navi Mumbai), and Bharati Vidyapeeth (Pune)."
+            ]
+        },
+        {
+            "tag": "recent_events",
+            "patterns": [
+                "What are the recent events happening in Maharashtra?",
+                "Tell me about the latest news in Maharashtra",
+                "What is happening in Maharashtra currently?"
+            ],
+            "responses": [
+                "Some recent events in Maharashtra include political developments, cultural festivals, and sports events like Mumbai Marathon."
+            ]
+        },
+        {
+            "tag": "history",
+            "patterns": [
+                "Tell me about the history of Maharashtra",
+                "When was Maharashtra formed?",
+                "What is the historical significance of Maharashtra?"
+            ],
+            "responses": [
+                "Maharashtra was formed on May 1, 1960. It has a rich history dating back to the Maratha Empire led by Chhatrapati Shivaji Maharaj."
+            ]
+        },
+        {
+            "tag": "shivaji_maharaj",
+            "patterns": [
+                
+                "Tell me about Chhatrapati Shivaji Maharaj",
+                "What is the legacy of Shivaji Maharaj?"
+            ],
+            "responses": [
+                "Shivaji Maharaj was a great Maratha warrior and the founder of the Maratha Empire. He is remembered for his leadership, military tactics, and fort construction."
+            ]
+        },
+        {
+            "tag": "cities",
+            "patterns": [
+                "What are the major cities in Maharashtra?",
+                "Tell me about the cities of Maharashtra",
+                "Which cities are in Maharashtra?"
+            ],
+            "responses": [
+                "Some major cities in Maharashtra include Mumbai, Pune, Nagpur, Nashik, and Aurangabad."
+            ]
+        },
+        {
+            "tag": "industries",
+            "patterns": [
+                "What industries are prominent in Maharashtra?",
+                "Tell me about the industries in Maharashtra",
+                "Which industries contribute to Maharashtra's economy?"
+            ],
+            "responses": [
+                "Maharashtra is known for its strong industries in IT, manufacturing, textiles, automotive, and agriculture."
+            ]
+        },
+        {
+            "tag": "famous_persons",
+            "patterns": [
+                "Who are some famous people from Maharashtra?",
+                "Tell me about famous personalities from Maharashtra",
+                "Which notable people were born in Maharashtra?"
+            ],
+            "responses": [
+                "Famous people from Maharashtra include Dr. B.R. Ambedkar, Dattatraya Narayan, Lata Mangeshkar, and Balasaheb Thackeray,Chtrapati Shivaji Maharaj"
+            ]
+        },
+        {
+            "tag": "fruits",
+            "patterns": [
+                "What are famous fruits in Maharashtra?",
+                "Tell me about the fruits of Maharashtra",
+                "Which fruits are grown in Maharashtra?"
+            ],
+            "responses": [
+                "Famous fruits of Maharashtra include Alphonso mangoes, bananas, custard apples, and pomegranates."
+            ]
+        },
+        {
+            "tag": "universities",
+            "patterns": [
+                "What are the top universities in Maharashtra?",
+                "Tell me about universities in Maharashtra",
+                "Which universities are in Maharashtra?"
+            ],
+            "responses": [
+                "Top universities in Maharashtra include the University of Mumbai, Pune University, IIT Bombay, Dr.Babasaheb Ambedkar University, Shivaji University."
+            ]
+        },
+        
+        {
+            "tag": "chief_minister",
+            "patterns": [
+                "Who is the Chief Minister of Maharashtra?",
+                "Tell me about the Chief Minister of Maharashtra",
+                "Who leads Maharashtra?"
+            ],
+            "responses": [
+                "The current Chief Minister of Maharashtra is Mr.Eknath Shinde(2024)"
+            ]
+            },
+            {
+            "tag": "governor",
+            "patterns": [
+                "Who is the Governor of Maharashtra?",
+                "Tell me about the Governor of Maharashtra",
+                "Who is the Rajyapal of Maharashtra?"
+            ],
+            "responses": [
+                "The current Governor of Maharashtra is Mr.Ramesh Bais (2024)."
+            ]
+        },
+        {
+            "tag": "deputy_cm",
+            "patterns": [
+                "Who is the Deputy Chief Minister of Maharashtra?",
+                "Tell me about the Deputy CM of Maharashtra"
+            ],
+            "responses": [
+                "The current Deputy Chief Minister of Maharashtra is Mr.Devendra Fadnavis (2024)."
+            ]
+        },
+        {
+            "tag": "education_minister",
+            "patterns": [
+                "Who is the Education Minister of Maharashtra?",
+                "Tell me about the Education Minister of Maharashtra"
+            ],
+            "responses": [
+                "The current Education Minister of Maharashtra is Ms.Varsha Gaikwad (2024)."
+            ]
+        },
+        {
+        "tag": "finance_minister",
+            "patterns": [
+                "Who is the Finance Minister of Maharashtra?",
+                "Tell me about the Finance Minister of Maharashtra"
+            ],
+            "responses": [
+                "The current Finance Minister of Maharashtra is Mr.Devendra Fadnavis (2024)."
+            ]
+        },
+        {
+            "tag": "home_affairs_minister",
+            "patterns": [
+                "Who is the Home Affairs Minister of Maharashtra?",
+                "Tell me about the Home Affairs Minister of Maharashtra"
+            ],
+            "responses": [
+                "The current Home Affairs Minister of Maharashtra is Mr.Dilip Walse Patil (2024)."
+            ]
+        },
+        {
+            "tag": "agriculture_minister",
+            "patterns": [
+                "Who is the Agriculture Minister of Maharashtra?",
+                "Tell me about the Agriculture Minister of Maharashtra"
+            ],
+            "responses": [
+                "The current Agriculture Minister of Maharashtra is Mr.Dadaji Bhuse (2024)."
+            ]
+        },
+    
+    
+       {
+            "tag": "about_maharashtra",
+             "patterns": [
+            "Tell me about Maharashtra",
+            "What is Maharashtra known for?",
+            "Describe Maharashtra",
+            "Give me information about Maharashtra"
+            ],
+        "responses": [
+            "Maharashtra is a state located in the western region of India. It is the second-most populous state and has Mumbai as its capital. Maharashtra is known for its diverse culture, historical landmarks, beaches, and is a major contributor to India's economy."
+            ]
+       },
+   
+  
+       {
+         "tag": "Exams",
+         "patterns": [
+           "Tell me about Maharashtra Board exams",
+           "What is the Maharashtra CET?",
+           "How to prepare for JEE Mains in Maharashtra?",
+           "What is MH-SET?",
+           "When are the CET exams in Maharashtra?"
+         ],
+         "responses": [
+           "The Maharashtra State Board conducts exams for high school and intermediate students. You can check official websites for exam dates and results.",
+           "The Common Entrance Test (CET) is an entrance exam for various professional courses in Maharashtra.",
+           "JEE Mains is a national level entrance exam, and Maharashtra also conducts the Maharashtra CET for engineering and medical admissions.",
+           "MH-SET (Maharashtra State Eligibility Test) is an entrance exam for determining eligibility for lectureship in Maharashtra.",
+           "The Maharashtra CET is usually held in May or June each year, and exam dates are announced on the official website."
+         ]
+       },
+       {
+         "tag": "scholarship_maharashtra",
+         "patterns": [
+           "What scholarships are available in Maharashtra?",
+           "Tell me about education grants in Maharashtra",
+           "How can I apply for Maharashtra scholarships?",
+           "Are there any scholarships for students in Maharashtra?"
+         ],
+         "responses": [
+           "Maharashtra offers several scholarships for students based on merit and financial need. You can apply for these through the Maharashtra government's website.",
+           "Education grants and scholarships are available for students pursuing higher education in Maharashtra. The state provides assistance through various programs.",
+           "The Maharashtra Scholarship scheme covers various categories, including SC, ST, OBC, and general categories, helping students with financial aid.",
+           "The Maharashtra Government also offers fee-waiver schemes for certain courses for economically backward students."
+         ]
+       },
+       {
+         "tag": "trekking",
+         "patterns": [
+           "What adventure sports can I do in Maharashtra?",
+           "Tell me about trekking in Maharashtra",
+           "Where can I go paragliding in Maharashtra?",
+           "What are the best places for rafting in Maharashtra?",
+           "I want to go camping in Maharashtra, any suggestions?"
+         ],
+         "responses": [
+           "Maharashtra is known for its adventure activities like trekking, paragliding, and rafting, especially in regions like Lonavala and Mahabaleshwar.",
+           "You can explore nature trails and go camping in places like Matheran, Lonavala, and the Western Ghats.",
+           "If you're into adventure sports, Maharashtra offers plenty of opportunities for thrill-seekers, from rafting on the Kundalika River to paragliding in Kamshet."
+         ]
+       },
+       {
+         "tag": "lonavala",
+         "patterns": [
+           "What are the best hill stations in Maharashtra?",
+           "Tell me about Lonavala and Mahabaleshwar",
+           "Where can I visit in Maharashtra for a hill station experience?",
+           "What is Matheran known for?"
+         ],
+         "responses": [
+           "Maharashtra has beautiful hill stations like Lonavala, Mahabaleshwar, Matheran, and Panchgani, perfect for a cool retreat from the city heat.",
+           "Lonavala and Khopoli are famous for their scenic landscapes, while Mahabaleshwar offers strawberry farms and panoramic views.",
+           "Matheran is unique as it is a vehicle-free hill station, where you can explore the beauty of nature on foot or by horseback."
+         ]
+       },
+       {
+         "tag": "tadoba",
+         "patterns": [
+           "Where can I see tigers in Maharashtra?",
+           "Tell me about Tadoba tiger reserve",
+           "What are the best wildlife sanctuaries in Maharashtra?",
+           "Can I see elephants in Maharashtra?",
+           "Where can I go on a wildlife safari in Maharashtra?"
+         ],
+         "responses": [
+           "Tadoba is one of Maharashtra's most famous tiger reserves, where you can go on a wildlife safari to spot tigers, leopards, and other wildlife.",
+           "Maharashtra also has several other wildlife sanctuaries like Sanjay Gandhi National Park and Pench Tiger Reserve.",
+           "If you're lucky, you might even witness elephant sightings in the forested regions of Maharashtra."
+         ]
+       },
+       {
+         "tag": "alibaug",
+         "patterns": [
+           "What are the best beaches in Maharashtra?",
+           "Tell me about Alibaug and Murud Janjira beaches",
+           "Where can I visit the beaches in Konkan?",
+           "What beaches are there in Mumbai?"
+         ],
+         "responses": [
+           "Maharashtra has a long coastline with beautiful beaches like Alibaug, Murud Janjira, and Ganapatipule.",
+           "Konkan is known for its pristine beaches, while Mumbai also has popular beaches like Juhu, Versova, and Girgaum Chowpatty.",
+           "Alibaug, located just a short drive from Mumbai, is perfect for weekend getaways, with calm waters and peaceful surroundings."
+         ]
+       },
+       {
+         "tag": "monsoon",
+         "patterns": [
+           "What are the seasons in Maharashtra?",
+           "Tell me about the Monsoon season in Maharashtra",
+           "What is the best time to visit Maharashtra?",
+           "When is the Winter season in Maharashtra?"
+         ],
+         "responses": [
+           "Maharashtra experiences four distinct seasons: Monsoon, Summer, Winter, and Autumn.",
+           "The Monsoon season (June to September) brings heavy rains, especially to coastal areas like Mumbai and Konkan.",
+           "Summer (March to May) is typically hot with temperatures rising above 35°C, especially in cities like Pune and Nagpur.",
+           "Winter (November to February) is relatively cool and pleasant, making it the best time for travel, with temperatures ranging from 10°C to 25°C.",
+           "Autumn is a transitional period from Monsoon to Winter, typically characterized by clear skies and moderate temperatures."
+         ]
+       },
+       {
+         "tag": "hot_weather",
+         "patterns": [
+           "What is the weather like in Maharashtra?",
+           "Is it hot in Maharashtra during the summer?",
+           "Tell me about the rainy season in Maharashtra",
+           "When is the best time to experience cool weather in Maharashtra?"
+         ],
+         "responses": [
+           "Maharashtra's temperature varies by season. During the summer, the weather can be hot with temperatures often crossing 35°C in cities like Nagpur and Nashik.",
+           "In the Monsoon season, you can expect humid and rainy weather with heavy downpours across coastal areas like Mumbai and Alibaug.",
+           "During Winter, the temperature is relatively cool, and it's the most comfortable time to visit the state. Cities like Pune and Mahabaleshwar enjoy pleasant weather with cool evenings.",
+           "In the dry season, the temperature can soar, particularly in central and eastern Maharashtra, making it very hot and dry."
+         ]
+       },
+       {
+         "tag": "IT_industry",
+         "patterns": [
+           "What industries are important in Maharashtra?",
+           "Tell me about the IT industry in Maharashtra"
+          
+         ],
+         "responses": [
+           "Maharashtra has a booming IT industry, with Pune and Mumbai being major hubs for technology and software development."
+           
+         ]
+       },
+       {
+         "tag": "maharashtra_economy",
+         "patterns": [
+           "What is the economy of Maharashtra like?",
+           "Tell me about startups in Maharashtra",
+           "What is the business environment in Maharashtra?",
+           "Is Maharashtra a good place for entrepreneurship?"
+         ],
+         "responses": [
+           "Maharashtra is one of the most economically developed states in India, with a diverse economy including sectors like manufacturing, services, and agriculture.",
+           "The state is also a hotspot for startups and entrepreneurship, with cities like Mumbai and Pune hosting numerous new-age businesses.",
+           "Maharashtra attracts significant business investments, particularly in the areas of technology, real estate, and infrastructure."
+         ]
+       },
+       {
+         "tag": "maharashtra_government",
+         "patterns": [
+           "What government services are available in Maharashtra?",
+           "Tell me about Maharashtra municipal corporation",
+           "How can I access Maharashtra citizen services?",
+           "What is the role of panchayats in Maharashtra?"
+         ],
+         "responses": [
+           "The Maharashtra government provides various citizen services, including online portals for utilities, permits, and public grievances.",
+           "The state has municipal corporations for cities like Mumbai, Pune, and Nagpur that manage local infrastructure, sanitation, and public services.",
+           "Panchayats in rural areas help with local governance and the implementation of various government schemes and policies."
+         ]
+       },
+       {
+         "tag": "maharashtra_schemes",
+         "patterns": [
+           "What schemes are available in Maharashtra?",
+           "Tell me about the Swasth Maharashtra initiative",
+           "How can I apply for Maharashtra education schemes?",
+           "What loan schemes are available in Maharashtra?"
+         ],
+         "responses": [
+           "Maharashtra offers several welfare schemes like Swasth Maharashtra for healthcare, education scholarships, and loan schemes for students and farmers.",
+           "Swasth Maharashtra focuses on improving healthcare infrastructure and providing affordable medical care across the state.",
+           "Education schemes in Maharashtra support students in both primary and higher education, while loan schemes offer financial support for farmers, entrepreneurs, and students."
+         ]
+       },
+       {
+         "tag": "water_supply",
+         "patterns": [
+           "What public utilities are available in Maharashtra?",
+           "Tell me about water supply in Maharashtra"
+          
+         ],
+         "responses": [
+           "Maharashtra has a well-established network for water supply and electricity across urban and rural areas."
+         ]
+       },
+       {
+         "tag": "stock_market",
+         "patterns": [
+           "Tell me about the stock market in Maharashtra",
+           "How can I invest in Maharashtra?",
+           "Which banks are in Maharashtra?",
+           "What financial services are available in Maharashtra?"
+         ],
+         "responses": [
+           "Mumbai is the financial capital of India and houses the Bombay Stock Exchange (BSE), the oldest stock exchange in Asia.",
+           "You can invest in Maharashtra by exploring stocks, mutual funds, or real estate options in the state.",
+           "Maharashtra is home to several major banks like the State Bank of India, ICICI, HDFC, and Axis Bank, providing a variety of financial services."
+         ]
+       },
+       {
+         "tag": "mpsc",
+         "patterns": [
+           "Tell me about MPSC exams",
+           "How can I apply for MPSC?",
+           "What is the Maharashtra Public Service Commission?"
+         ],
+         "responses": [
+           "MPSC (Maharashtra Public Service Commission) conducts exams for recruitment to state government posts.",
+           "You can apply for MPSC exams through their official website, where you'll find details about eligibility, syllabus, and exam patterns.",
+           "MPSC is responsible for selecting candidates for various administrative and civil service roles within the Maharashtra government."
+         ]
+       }
+     ]
+   
+   
