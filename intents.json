@@ -1,0 +1,412 @@
+[
+    {
+        "tag": "greeting",
+        "patterns": [
+            "Hi",
+            "Hello",
+            "Hey",
+            "How are you",
+            "What's up"
+        ],
+        "responses": [
+            "Hi there",
+            "Hello",
+            "Hey",
+            "I'm fine, thank you",
+            "Nothing much"
+        ]
+    },
+    {
+        "tag": "goodbye",
+        "patterns": [
+            "Bye",
+            "See you later",
+            "Goodbye",
+            "Take care"
+        ],
+        "responses": [
+            "Goodbye",
+            "See you later",
+            "Take care"
+        ]
+    },
+    {
+        "tag": "thanks",
+        "patterns": [
+            "Thank you",
+            "Thanks",
+            "Thanks a lot",
+            "I appreciate it"
+        ],
+        "responses": [
+            "You're welcome",
+            "No problem",
+            "Glad I could help"
+        ]
+    },
+    {
+        "tag": "about",
+        "patterns": [
+            "What can you do",
+            "Who are you",
+            "What are you",
+            "What is your purpose"
+        ],
+        "responses": [
+            "I am a chatbot",
+            "My purpose is to assist you",
+            "I can answer questions and provide assistance"
+        ]
+    },
+    {
+        "tag": "help",
+        "patterns": [
+            "Help",
+            "I need help",
+            "Can you help me",
+            "What should I do"
+        ],
+        "responses": [
+            "Sure, what do you need help with?",
+            "I'm here to help. What's the problem?",
+            "How can I assist you?"
+        ]
+    },
+  
+    {
+        "tag": "weather",
+        "patterns": [
+            "What's the weather like",
+            "How's the weather today"
+        ],
+        "responses": [
+            "I'm sorry, I cannot provide real-time weather information.",
+            "You can check the weather on a weather app or website."
+        ]
+    },
+   
+   
+    {
+        "tag": "name",
+        "patterns": [
+            "What's your name",
+            "Do you have a name",
+            "What should I call you"
+        ],
+        "responses": [
+            "You can call me Chatbot.",
+            "My name is Chatbot."
+        ]
+    },
+   
+   
+    {
+        "tag": "time",
+        "patterns": [
+            "What's the time",
+            "Can you tell me the time"
+        ],
+        "responses": [
+            "I'm sorry, but I don't have access to real-time information like the current time.",
+            "You can check the time on your device or use a clock."
+        ]
+    },
+    
+        {
+            "tag": "capital",
+            "patterns": [
+                "What is the capital of Maharashtra?",
+                "Tell me the capital of Maharashtra",
+                "Where is the capital of Maharashtra?"
+            ],
+            "responses": [
+                "The capital of Maharashtra is Mumbai."
+            ]
+        },
+        {
+            "tag": "highest_peak",
+            "patterns": [
+                "What is the highest peak in Maharashtra?",
+                "Which mountain is the highest in Maharashtra?",
+                "Tell me about the highest peak in Maharashtra"
+            ],
+            "responses": [
+                "The highest peak in Maharashtra is Kalsubai."
+            ]
+        },
+        {
+            "tag": "extraordinary_people",
+            "patterns": [
+                "Who are some extraordinary people from Maharashtra?",
+                "Tell me about extraordinary people from Maharashtra",
+                "Which famous people changed Maharashtra?"
+            ],
+            "responses": [
+                "Extraordinary people from Maharashtra include Dr. B.R. Ambedkar, Balasaheb Thackeray, Lata Mangeshkar, and D.Y. Patil,Chtrapati Shivaji Maharaj "
+            ]
+        },
+        {
+            "tag": "tourism",
+            "patterns": [
+                "What are the famous tourist places in Maharashtra?",
+                "Tell me about tourist spots in Maharashtra",
+                "What places should I visit in Maharashtra?"
+            ],
+            "responses": [
+                "Famous tourist places in Maharashtra include Ajanta and Ellora Caves, Gateway of India, Mahabaleshwar, Lonavala, and more."
+            ]
+        },
+        {
+            "tag": "transportation",
+            "patterns": [
+                "What are the transport options in Maharashtra?",
+                "Tell me about railways, roadways, airways, and waterways in Maharashtra",
+                "How do people travel in Maharashtra?"
+            ],
+            "responses": [
+                "Maharashtra has a well-developed transport system, including railways, roadways, airways, and waterways. Mumbai is a major hub for local and international flights, and the state has extensive train and bus networks."
+            ]
+        },
+        {
+            "tag": "railways",
+            "patterns": [
+                "Tell me about railways in Maharashtra",
+                "What are the major railway stations in Maharashtra?",
+                "How many trains run in Maharashtra?"
+            ],
+            "responses": [
+                "Maharashtra has an extensive railway network. Major stations include Chhatrapati Shivaji Maharaj Terminus in Mumbai, Pune Junction, and Nagpur Junction."
+            ]
+        },
+        {
+            "tag": "roadways",
+            "patterns": [
+                "What are the main roads in Maharashtra?",
+                "Tell me about highways and roads in Maharashtra",
+                "What is the road network in Maharashtra like?"
+            ],
+            "responses": [
+                "Maharashtra has a vast road network, including national highways like NH 48 (Mumbai-Pune Expressway) and NH 66 (Goa-Mumbai Road)."
+            ]
+        },
+        {
+            "tag": "airways",
+            "patterns": [
+                "What are the major airports in Maharashtra?",
+                "Tell me about airports in Maharashtra",
+                "Which international airports are in Maharashtra?"
+            ],
+            "responses": [
+                "Maharashtra has several major airports, including Chhatrapati Shivaji Maharaj International Airport in Mumbai and Pune International Airport."
+            ]
+        },
+        {
+            "tag": "waterways",
+            "patterns": [
+                "What are the waterways in Maharashtra?",
+                "Tell me about the waterways in Maharashtra",
+                "Are there any important rivers or ports in Maharashtra?"
+            ],
+            "responses": [
+                "Maharashtra has several ports, including Jawaharlal Nehru Port Trust (JNPT) in Navi Mumbai and Mumbai Port. Major rivers include the Godavari, Krishna, and Tapi."
+            ]
+        },
+        {
+            "tag": "colleges",
+            "patterns": [
+                "What are the top colleges in Maharashtra?",
+                "Tell me about famous colleges in Maharashtra",
+                "Which colleges are known in Maharashtra?"
+            ],
+            "responses": [
+                "Top colleges in Maharashtra include St. Xavier's College (Mumbai), Fergusson College (Pune), and IIT Bombay."
+            ]
+        },
+        {
+            "tag": "schools",
+            "patterns": [
+                "What are the best schools in Maharashtra?",
+                "Tell me about schools in Maharashtra",
+                "Which schools are popular in Maharashtra?"
+            ],
+            "responses": [
+                "Some of the best schools in Maharashtra include The Cathedral and John Connon School (Mumbai), Delhi Public School (Navi Mumbai), and Bharati Vidyapeeth (Pune)."
+            ]
+        },
+        {
+            "tag": "recent_events",
+            "patterns": [
+                "What are the recent events happening in Maharashtra?",
+                "Tell me about the latest news in Maharashtra",
+                "What is happening in Maharashtra currently?"
+            ],
+            "responses": [
+                "Some recent events in Maharashtra include political developments, cultural festivals, and sports events like Mumbai Marathon."
+            ]
+        },
+        {
+            "tag": "history",
+            "patterns": [
+                "Tell me about the history of Maharashtra",
+                "When was Maharashtra formed?",
+                "What is the historical significance of Maharashtra?"
+            ],
+            "responses": [
+                "Maharashtra was formed on May 1, 1960. It has a rich history dating back to the Maratha Empire led by Chhatrapati Shivaji Maharaj."
+            ]
+        },
+        {
+            "tag": "shivaji_maharaj",
+            "patterns": [
+                
+                "Tell me about Chhatrapati Shivaji Maharaj",
+                "What is the legacy of Shivaji Maharaj?"
+            ],
+            "responses": [
+                "Shivaji Maharaj was a great Maratha warrior and the founder of the Maratha Empire. He is remembered for his leadership, military tactics, and fort construction."
+            ]
+        },
+        {
+            "tag": "cities",
+            "patterns": [
+                "What are the major cities in Maharashtra?",
+                "Tell me about the cities of Maharashtra",
+                "Which cities are in Maharashtra?"
+            ],
+            "responses": [
+                "Some major cities in Maharashtra include Mumbai, Pune, Nagpur, Nashik, and Aurangabad."
+            ]
+        },
+        {
+            "tag": "industries",
+            "patterns": [
+                "What industries are prominent in Maharashtra?",
+                "Tell me about the industries in Maharashtra",
+                "Which industries contribute to Maharashtra's economy?"
+            ],
+            "responses": [
+                "Maharashtra is known for its strong industries in IT, manufacturing, textiles, automotive, and agriculture."
+            ]
+        },
+        {
+            "tag": "famous_persons",
+            "patterns": [
+                "Who are some famous people from Maharashtra?",
+                "Tell me about famous personalities from Maharashtra",
+                "Which notable people were born in Maharashtra?"
+            ],
+            "responses": [
+                "Famous people from Maharashtra include Dr. B.R. Ambedkar, Dattatraya Narayan, Lata Mangeshkar, and Balasaheb Thackeray,Chtrapati Shivaji Maharaj"
+            ]
+        },
+        {
+            "tag": "fruits",
+            "patterns": [
+                "What are famous fruits in Maharashtra?",
+                "Tell me about the fruits of Maharashtra",
+                "Which fruits are grown in Maharashtra?"
+            ],
+            "responses": [
+                "Famous fruits of Maharashtra include Alphonso mangoes, bananas, custard apples, and pomegranates."
+            ]
+        },
+        {
+            "tag": "universities",
+            "patterns": [
+                "What are the top universities in Maharashtra?",
+                "Tell me about universities in Maharashtra",
+                "Which universities are in Maharashtra?"
+            ],
+            "responses": [
+                "Top universities in Maharashtra include the University of Mumbai, Pune University, IIT Bombay, Dr.Babasaheb Ambedkar University, Shivaji University."
+            ]
+        },
+        
+        {
+            "tag": "chief_minister",
+            "patterns": [
+                "Who is the Chief Minister of Maharashtra?",
+                "Tell me about the Chief Minister of Maharashtra",
+                "Who leads Maharashtra?"
+            ],
+            "responses": [
+                "The current Chief Minister of Maharashtra is Mr.Eknath Shinde(2024)"
+            ]
+            },
+            {
+            "tag": "governor",
+            "patterns": [
+                "Who is the Governor of Maharashtra?",
+                "Tell me about the Governor of Maharashtra",
+                "Who is the Rajyapal of Maharashtra?"
+            ],
+            "responses": [
+                "The current Governor of Maharashtra is Mr.Ramesh Bais (2024)."
+            ]
+        },
+        {
+            "tag": "deputy_cm",
+            "patterns": [
+                "Who is the Deputy Chief Minister of Maharashtra?",
+                "Tell me about the Deputy CM of Maharashtra"
+            ],
+            "responses": [
+                "The current Deputy Chief Minister of Maharashtra is Mr.Devendra Fadnavis (2024)."
+            ]
+        },
+        {
+            "tag": "education_minister",
+            "patterns": [
+                "Who is the Education Minister of Maharashtra?",
+                "Tell me about the Education Minister of Maharashtra"
+            ],
+            "responses": [
+                "The current Education Minister of Maharashtra is Ms.Varsha Gaikwad (2024)."
+            ]
+        },
+        {
+        "tag": "finance_minister",
+            "patterns": [
+                "Who is the Finance Minister of Maharashtra?",
+                "Tell me about the Finance Minister of Maharashtra"
+            ],
+            "responses": [
+                "The current Finance Minister of Maharashtra is Mr.Devendra Fadnavis (2024)."
+            ]
+        },
+        {
+            "tag": "home_affairs_minister",
+            "patterns": [
+                "Who is the Home Affairs Minister of Maharashtra?",
+                "Tell me about the Home Affairs Minister of Maharashtra"
+            ],
+            "responses": [
+                "The current Home Affairs Minister of Maharashtra is Mr.Dilip Walse Patil (2024)."
+            ]
+        },
+        {
+            "tag": "agriculture_minister",
+            "patterns": [
+                "Who is the Agriculture Minister of Maharashtra?",
+                "Tell me about the Agriculture Minister of Maharashtra"
+            ],
+            "responses": [
+                "The current Agriculture Minister of Maharashtra is Mr.Dadaji Bhuse (2024)."
+            ]
+        },
+    
+    
+    {
+        "tag": "about_maharashtra",
+        "patterns": [
+            "Tell me about Maharashtra",
+            "What is Maharashtra known for?",
+            "Describe Maharashtra",
+            "Give me information about Maharashtra"
+        ],
+        "responses": [
+            "Maharashtra is a state located in the western region of India. It is the second-most populous state and has Mumbai as its capital. Maharashtra is known for its diverse culture, historical landmarks, beaches, and is a major contributor to India's economy."
+        ]
+    }
+]
+    
